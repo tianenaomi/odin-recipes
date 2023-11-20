@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
     color: rgb(8, 8, 95);
     background-color: rgb(245, 245, 220);
@@ -6,7 +16,13 @@ body {
 }
 
 .recipe {
-    margin: 10px auto 0;
+    list-style: none;
+    display: inline-block;
+    border: 2px solid rgb(240, 108, 108);
+    padding: 50px 20px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
 }
 
 h1 {
